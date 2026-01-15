@@ -5,7 +5,6 @@
             ****
             *****
 '''
-from idlelib.outwin import file_line_progs
 
 
 def halfPyramid():
