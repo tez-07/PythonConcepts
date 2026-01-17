@@ -1,5 +1,3 @@
-from functools import total_ordering
-
 
 def factorial(number):
 
