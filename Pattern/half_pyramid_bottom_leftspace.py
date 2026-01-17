@@ -5,14 +5,16 @@
                **
                 *
 '''
-from idlelib.outwin import file_line_progs
+
 
 
 def half_pyramid180():
-    for i in range(5):
-        for k in range(5):
-            if i >= k:
-                print('*',end='')
+    n = 5
+    for i in range(n):
+        for spaces in range(i):
+            print(' ', end='')
+        for stars in range(n-i):
+            print('*', end='')
         print('')
 
 half_pyramid180()
