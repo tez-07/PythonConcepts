@@ -11,7 +11,7 @@ def largest_Number():
     print("array: ", arr)
 
     largest = arr[0]
-    for i in arr:
+    for i in arr[1:]:
         if i > largest:
             largest = i
 
